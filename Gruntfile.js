@@ -49,6 +49,7 @@ module.exports = function(grunt) {
       local: {
         src: "gamma.env",
         FH_USE_LOCAL_DB: true,
+        WFM_AUTH_GUID:'iidn3tvprs62asdebat5m3eg',
         FH_SERVICE_MAP: function() {
           /*
            * Define the mappings for your services here - for local development.
